@@ -1,0 +1,102 @@
+body{
+    font-family: monospace;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;   
+}
+
+header{
+    background: #fff;
+    padding: 10px;
+    min-height: 70%;
+    border-bottom:#f6416c 3px solid;
+}
+header #branding{float: left;}
+
+header #branding h1{margin: 0; color: #333333;}
+
+header a{
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;   
+}
+header a:hover{ color:#f6416c ;font-weight: bold;}
+
+header .highlight, header .current a{ color: #f6416c; font-weight: bold;}
+
+header nav{ float: right; margin-top: 10px; }
+
+header ul{ margin: 0; padding: 0;}
+
+header li{ float: left; display: inline; padding: 0 20px 0 20px;}
+
+#showcase{
+    min-height: 400px;
+    background: url(../imegs/laptop-table-ge.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #FFFF;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-transform: uppercase;   
+}
+#showcase span{
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 10px;
+    display: inline-block;     
+}
+#mywork{ margin-top: 20px;}
+
+#mywork h3{ text-align: center; color:#333333 ; font-size: 23px; }
+
+#mywork .box{ float: left; text-align: center; width: 30%; padding: 10px;}
+
+#mywork .box p{color: #333333; font-weight: 600;}
+
+#mywork .box img{ 
+    width:280px; 
+    height: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;    
+}
+
+img:hover { box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+
+footer{
+    padding: 15px;
+    margin-top: 15px;
+    color:#f6416c ;
+    background-color: #333333;
+    text-align: center;        
+}
+@media(max-width: 768px){
+    header #branding, 
+    header nav,
+    header nav li,
+    #mywork .box{
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        margin-top: 40px;
+    }  
+}
