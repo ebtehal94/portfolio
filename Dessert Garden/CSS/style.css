@@ -1,0 +1,152 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+p{line-height: 1.7;  color: #767674;}
+
+.container{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.clearfix{clear: both;}
+
+/* Start Header -- */
+
+header{ margin: 0; text-align: center;}
+
+.logo{margin:0 0 -40px;}
+nav ul{
+    padding-left: 15px;
+    padding-top: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+nav ul li{float: left; padding-left: 20px; }
+
+nav ul li a{color: #767674;text-decoration: none;}
+
+nav ul li.active a{color:#EE64A4; }
+
+nav ul li a:hover{color: #EE64A4;}
+
+@media (max-width: 767px){
+    header{
+        text-align: center;
+        width: 100%;
+    }
+    nav ul li{
+        font-size: 15px;
+    }
+}
+
+/* End Header -- */
+
+/* Start Services */
+#services{
+    background-color: #F7F6F4;
+    padding-top: 20px;
+    padding-bottom: 50px; 
+}
+#services h2 , h3, h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #767674;    
+}
+#services h4{color:#EE64A4; letter-spacing: 4px; font-size: 12px;}
+#services .type{ float: left; width: 33.3333%; text-align: center;}
+#services .type img{width: 90px; height: 90px;}
+
+#services .type button{
+    padding: 10px;
+    color: white;
+    background-color: #EE64A4;
+    border: none;
+    border-radius:20px;
+    font-weight: 500;
+}
+
+@media (max-width: 767px){
+    #services h2{
+        font-size: 14px;
+        }
+    #services .type {
+        text-align: center;
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px){
+    #services .type{
+        
+    }
+}
+
+/* End Services */
+
+/* Start About Us */
+#abuot-us{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#abuot-us h3{padding-bottom: 30px;}
+
+#abuot-us .img{ float: left;width: 45% }
+
+#abuot-us .img img{ margin-left: 30%}
+#abuot-us .par{margin-right: 10%;}
+
+
+@media (max-width: 767px){
+    #abuot-us .img{
+        width: 100%;
+               
+    }
+    #abuot-us .img img{
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+    #abuot-us .par {
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+/* End About Us */
+
+/* Start Contact */
+#contact{ background-color: #5C595C; padding-top: 20px; padding-bottom: 20px;text-align: center;}
+
+#contact h3{color: #fff;}
+
+#contact input {padding: 5px 8px;}
+
+#contact button{
+    padding: 5px;
+    color: white;
+    background-color:#EE64A4;
+    border: none;
+    font-weight: 500;
+}
+#contact .icon{ color: #fff; text-align: center; font-size: 25px}
+/* End Contact */
+
+
+@media (min-width: 768px){/* small screen rules */
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px){/* Medium screen rules */
+     .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){/* Large screen rules */
+   .container{
+        width: 990px;
+    }
+}
+
