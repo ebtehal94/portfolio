@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normaliz.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css"/>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle span').click(function(){
+                    $('ul').toggleClass('active')
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <!-- Start ScroolToTop -->
+        <a class="scroll-to-top" href="#">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+        <!-- End ScroolToTop -->
+        
+        <!-- Start header -->
+        <section class="header">
+            
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Ebtehal </span>Ali</h1>        
+                </div>
+
+                
+                <nav>
+                    <div class="toggle">
+                 <span><i class="fa fa-bars"></i></span>
+             </div>
+                    <ul>
+                        <li><a href="index.html" data-scroll="home"class="current">Home</a></li>
+                        <li><a href="#"  data-scroll="skills">Skills</a></li>
+                        <li><a href="#mywork"   data-scroll="Portfolio">Portfolio</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </nav>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        <section id="home">
+            <div class="container">
+                <div class="banr">
+                    
+                    <div class="heading">
+                        <h1>Welcome To My Website</h1>
+                        <p >I  <span class="typer" data-text=" WEB DESIGNER "></span></p>
+                    </div>
+                    <div class="img">
+                        <img src="image/web-center.png">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- End Banr -->
+        
+        <div class="clearfix"></div>
+        
+        <!-- Start Skills -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="img">
+                    <img src="image/img%20(1).png">
+                </div>
+                <div class="progress">
+                    <div class="skill">
+                        <h3>HTML 5</h3>
+                        <div>
+                            <span style="width: 75%;">75% &nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>CSS 3</h3>
+                        <div>
+                            <span style="width: 60%;">60% &nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>JavaScript &amp; jQuery</h3>
+                        <div>
+                            <span style="width: 50%;">50% &nbsp;</span>
+                        </div>
+                    </div>
+                     <div class="skill">
+                        <h3>bootstrap </h3>
+                        <div>
+                            <span style="width: 0%;"> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Skills -->
+        <div class="clearfix"></div>
+        
+        <!--  start portfolio -->
+        <section class="portfolio"  id="Portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="box">
+                    <a href="https://photography-site.netlify.com/">
+                    <img src="image/project%201.jpg" alt="project 1"></a>
+                </div>
+                <div class="box">
+                    <a href="https://maxisonix.netlify.com">
+                    <img src="image/project%202.jpg" alt="project 2"></a>
+                </div>
+                <div class="box">
+                    <a href="https://dessert-garden.netlify.com/">
+                    <img src="image/project%203.jpg" alt="project 3"></a>
+                </div>
+                <div class="box">
+                    <a href="https://ebtehal-portfolio.netlify.com/">
+                    <img src="image/project%204.jpg" alt="project 3"></a>
+                </div>
+             </div>
+        </section>
+        <!-- End portfolio -->
+        <div class="clearfix"></div>
+        
+        <!-- Start Footer -->
+         <footer>
+            <p> Copyright &copy; 2019 , Ebtehal Ali</p>
+             <span> Made With <i class="fa fa-heart"></i> </span>
+        </footer>
+        <!-- End Footer -->
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/typed.js"></script>
+        <script type="text/javascript">
+            var typed = new Typed(".typer", {
+              strings: [" am a WEB DESIGNER.",
+                       " LOVE WEB DESIGN."],
+              typeSpeed: 50,
+              backSpeed: 50,
+              loop: true              
+            });
+        </script>
+    </body>
+</html>

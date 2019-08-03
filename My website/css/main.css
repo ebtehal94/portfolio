@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lora",serif;
+    box-sizing: border-box;
+    height: 1500px;
+    color: #212529;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+      
+}
+
+.clearfix{
+    clear: both;
+}
+
+.scroll-to-top{
+   width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color:#ff7d9a;
+    color: #FFF;
+    position: fixed;
+    line-height: 2;
+    bottom: 50px;
+    right: 20px;
+    border-radius: 8%;
+    display: none;
+    
+   
+}
+
+
+/* Start Header */
+.header{
+    margin: 0;
+    background: linear-gradient(to right, #b597c2 0%, #ff7d9a 100%);
+    position: relative;
+    width: 100%;
+    
+}
+
+.header #branding{float: left; color: #fff;}
+
+
+.header nav ul{ 
+    position: relative;
+    float: right; 
+    margin: 0; 
+    padding: 0;
+}
+
+.header nav ul li{ 
+    display: inline-block; 
+    list-style: none;
+     }
+
+
+
+.header nav a{
+    display: block;
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px; 
+    cursor: pointer;
+    
+}
+
+.header nav a:hover{ 
+    color: #384665; ;
+    font-weight: bold; 
+    transition: 0.5s;
+}
+
+
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;    
+}
+.toggle{
+    width: 100%;
+    background:  linear-gradient(to right, #b597c2 0%, #ff7d9a 100%);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: right;
+   display: none;
+}
+.toggle span{
+    color: #FFF;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media (max-width: 767px){
+    .toggle{
+    display: block;
+    
+    }
+    .header nav ul{
+        float: none;
+        text-align: center;
+        display: none;
+    }
+    .header nav ul.active{
+        display: block;
+    }
+     .header nav ul li{
+        display: block;
+    }
+}
+
+
+
+/* End Header */
+
+/* Start Banr */
+.banr{
+    margin-top: 8%;
+    margin-bottom: 10%;
+   overflow: hidden;
+}
+.banr .heading{
+    margin-top: 60px;
+    width: 45%;
+    margin-left: ;
+    float: left;
+    text-align: center;
+}
+.banr .heading h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    
+}
+.banr .heading p{
+    font-size: 22px;
+}
+.banr .heading .typer{
+    color: #ff7d9a;
+}
+.banr .img{
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+}
+.banr .img img{
+    width: 500px;
+    height: 450px;
+}
+
+@media (max-width: 767px){
+    .banr{
+        
+        text-align: center;
+    }
+
+    .banr .heading{
+        float: none;
+        width: 100%;
+    }
+    .banr .heading h1{
+        font-size: 30px;
+        padding-top: 0;
+    }
+    .banr .heading span{
+        font-size: 18px
+    }
+    
+    .banr .img{
+        float: none;
+        width: 100%;
+       
+    }
+    .banr .img img{
+        width: 380px;
+        height: 330px;
+    }
+}
+/* End Banr */
+
+/* Start Skills */
+
+.skills h2{
+    text-align: center;
+   font-size: 36px;
+    text-transform: uppercase;
+    color: #384665;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.skills .img {
+    width: 50%;
+    float: left;
+}
+
+.skills .img img{
+    width: 370px;
+    height: 300px;
+}
+
+.skills .progress{
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+}
+.skills .progress h3{
+    color: #384665;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.skills .progress .skill div{
+    background-color: #F2F2F2;
+    height: 14px;
+    border-radius: 15px;
+    
+}
+.skills .progress .skill div span{
+    display: block;
+    background-color: #ff7d9a;
+    height: 14px;
+    border-radius: 15px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+   color: #fff;
+}
+
+@media (max-width: 767px){
+    .skills{
+        text-align: center;
+        
+    }
+    .skills h2{
+        margin-bottom: 20px;
+    }
+
+    .skills .img{
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+   
+    }
+    .skills .progress{
+        width: 100%;
+        float: none;
+        margin: auto;
+        
+    }
+    
+}
+/* End Skills */
+
+/* Start Portfolio */
+
+.portfolio{ 
+    margin-top: 8%;
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+
+.portfolio h2{ 
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #384665;
+    font-weight: bold;
+    margin-bottom: 80px; }
+
+.portfolio .box{ 
+    float: left; 
+    text-align: center; 
+    width: 25%;
+   
+    
+}
+
+
+.portfolio .box img{ 
+    width:210px; 
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;    
+}
+
+img:hover { box-shadow: 0px 0px 0px 7px rgba(200,194,194,0.2);}
+
+@media (max-width: 767px){
+    .portfolio h2{
+        margin-bottom: 20px;
+    }
+    
+    .portfolio .box{
+        float: none;
+        width: 100%;
+        text-align: center; 
+        padding: 5px;
+    }
+   
+       
+
+}
+
+/* End Portfolio */
+
+/* Start footer */
+footer{
+    margin-bottom: 0;
+    padding: 15px;
+    color:#384665 ;
+    background-color: #F1F2F5;
+    text-align: center; 
+   
+}
+
+footer i{
+    color: #ff7d9a;
+}
+        
+
+
+
+/* End footer */
+
+
+
+@media (min-width: 768px){/* small screen rules */
+    .container{
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px){/* Medium screen rules */
+     .container{
+        width: 970px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
