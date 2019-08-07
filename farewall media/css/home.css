@@ -1,0 +1,236 @@
+
+
+.clearfix{
+    clear: both;
+}
+.background{
+    background:  linear-gradient(186deg,#e7e5e6 0%,#ffffff 100%);
+
+}
+/* Start Banar */
+.banar{
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+.banar .pargraph{
+    width: 45%;
+    float: left;
+    padding-right: 5%;
+    margin-top: 50px;
+    transform: translate(20px,20px); 
+}
+.banar .pargraph h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #222222;
+}
+.banar .pargraph p{
+    line-height: 1.7;
+    color: #737373;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banar button{
+    padding: 10px 17px;
+    border: none;
+    background-color: #28ACE2;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -10px;
+    cursor: pointer;
+
+}
+.banar button:hover
+{
+    background-color: #333333;
+    color: #C1C1C1;
+}
+.banar .image{
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}
+.banar .image img{
+    width: 500px;
+}
+@media (max-width: 980px){
+    .banar .pargraph{
+        width: 100%;
+        float: none;
+        padding-right: 0;
+    }
+    .banar .pargraph h2{
+        font-size: 25px;
+    }
+    .banar .image{
+        width: 100%;
+        float: none;
+        text-align: center;  
+    }
+    .banar .image img{
+        width: 100%;
+        margin-top: 70px;
+    }
+}
+/* End Our Work */
+
+/* Start Customer */
+.customers{
+    width: 100%;
+    display: flex;
+    background: #e5e5e5;
+   
+}
+.customers .num {
+   float: left;
+}
+.customers .num img{
+    width:  160px;
+   
+}
+@media (max-width: 980px){
+    .customers {
+        display: none;
+    }
+}
+/* End Customer */
+
+/* Start path */
+.path{
+    background: #fff;
+    overflow: hidden;
+}
+.path h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.path .phase{
+    width: 33.3333%;
+    float: left;
+}
+.path .phase h2{
+    color: #26ACE2;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 0;
+}
+.path .phase .explain {
+    margin:0 20px;
+    
+}
+.path .phase .explain h3{
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.path .phase .explain p{
+    color: #767676;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+@media (max-width: 980px){
+    .path .phase{
+        float: none;
+        width: 100%;
+    }
+}
+/* End path */
+
+/* Start Portfolio */
+
+h2.recent-work {
+    text-align:center;
+    padding-top: 30px;
+    color: #222222;
+    font-size: 35px;
+
+}
+.Portfolio{
+    margin-top: 0;
+}
+
+/* End Portfolio */
+
+/* Start Services */
+.services {
+    text-align: center;
+    background: #F9F9F9;
+    overflow: hidden;
+}
+.services h2{
+    color: #222222;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.services .type{
+    float: left;
+    width: 45%;
+    margin: 25px;
+    background: #fff;
+    height: 550px;
+}
+.services .type p{
+    text-align: left;
+    line-height: 1.7;
+    color: #737373;
+    font-size: 18px;
+    margin: 20px;
+}
+.services .type img{
+    width: 360px;
+    height: 300px;
+}
+.services button{
+    padding: 10px 17px;
+    border: none;
+    background-color: #28ACE2;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.services button:hover
+{
+    background-color: #333333;
+    color: #C1C1C1;
+}
+.services .type .maintenance{
+    margin-bottom: 50px;
+}
+@media (max-width: 980px){
+    .services .type{
+        float: none;
+        width: 100%;
+        margin-left: 5px
+    }
+    .services .type .maintenance{
+        margin-bottom: 20px;
+
+    }
+}
+/* End Services */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

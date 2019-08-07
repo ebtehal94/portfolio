@@ -1,0 +1,85 @@
+/* Start Team */
+
+.team{
+    background: #F7F6F6;
+    position: relative;
+    height: 900px;
+    width: 100%;
+}
+
+.team .greeting{
+    margin-bottom: 25px;
+}
+.team .greeting h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #222222;
+    padding-top: 20px
+}
+.team .greeting P{
+    line-height: 1.7;
+    color: #737373;
+    font-size: 16px;  
+}
+.team .the-team {
+    display: flex;
+}
+.team .the-team h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #37B2E3;
+    margin: 0;
+}
+.team .the-team span{
+    font-size: 25px;
+    font-weight: bold;
+    color: #222222;
+}
+.team .the-team  p{
+     line-height: 1.7;
+    color: #737373;
+    font-size: 18px;
+    padding-right: 10px
+}
+.team .the-team img{
+    width: 450px;
+    height: 300px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.team  button{
+    padding: 10px 17px;
+    border: none;
+    background-color: #28ACE2;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -10px;
+    cursor: pointer;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+@media (max-width: 980px){
+    .team{
+        width: 100%;
+        height: 100%;
+    }
+    .team .the-team{
+        display: block;
+        
+    }
+    .team .the-team img{
+        width: 100%;
+        margin-right: 0;
+    }
+    .team .the-team .who-is{
+        margin-left: 20px;
+    }
+    .team  button{
+        display: none;
+    }
+}
